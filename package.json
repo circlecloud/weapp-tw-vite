@@ -1,0 +1,37 @@
+{
+  "name": "weapp-tw-vite",
+  "version": "1.0.1",
+  "description": "用于 Taro4 vite 版本 临时解决不加载 postcss 的问题",
+  "keywords": [
+    "Taro",
+    "Plugin"
+  ],
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "dist",
+    "index.js",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@tarojs/service": "^4.0.4",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@tarojs/helper": "^4.0.4",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.5.4"
+  }
+}
